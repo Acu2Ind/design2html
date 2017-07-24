@@ -11,7 +11,7 @@
 }
 
 .side_bar {
-  width: 60px;
+  width: 4.4%;
   height: 580.3px;
   background-color: #1f1e1e;
   float:left;
@@ -19,7 +19,7 @@
 }
 .main_cont {
   margin-top:60px;
-  background-image: url(../images/heineken-case-study-managed-solution.png);
+  background-image: url(../images/heineken.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 100%;
@@ -129,7 +129,7 @@
 }
 
 .down_link {
- width: 60px;
+ /*width: 60px;*/
   height: 60px;
   background-color: #d51e2f;
   /*background-color: var(--lipstick);*/
@@ -146,18 +146,19 @@
 	margin-top:21px;
 }
 .main_section {
-	width: 95%;
+	width: 95.6%;
   height: 580px;
   float:left;
   position:relative;
 	
 }
 .slide_menu {
-width: 203.1px;
+width: 22%;/*203.1px;*/
   height: 580.3px;
   background-color: #373737;
   padding-left:16px;
 padding-right:12.8px;
+float:left;
   /*background-color: var(--black-two);*/	
 }
 .export_head{
@@ -324,7 +325,7 @@ width: 75px;
   object-fit: contain;
   margin: 0 auto;
     display: block;
-    margin-top: 17px;
+    margin-top: 24px;
 }
 .move-copy-2 {
   width: 28px;
@@ -332,7 +333,7 @@ width: 75px;
   object-fit: contain;
   margin: 0 auto;
     display: block;
-    margin-top: 17px;
+    margin-top: 24px;
 }
 
 .closes {
@@ -361,6 +362,14 @@ width: 75px;
 }
 
 
+.img_wdth {
+	height:580px;
+	width: 100%!important;
+}
+.img {
+	width: 78%;
+    float: left;
+}
 
 
 
@@ -375,24 +384,70 @@ width: 75px;
 
 
 
-
+@media (min-width: 992px) and (max-width: 1200px) {
+.top_bar_content_width {
+	width:14%!important;
+}
+.zero_padd {
+	padding-right:0!important;
+}
+}
 
 
 
 
 @media (min-width: 992px) {
-.top_bar_content_width {
+/*.top_bar_content_width {
 	width:14%!important;
-}
-.top_bar_content_padd {
-	padding:0!important;
-}
+}*/
+
 .side_width {
  width:60px!important;	
 }
 }
+@media (min-width: 1200px) {
+	.top_bar_content_padd {
+	padding:0!important;
+}
+.top_bar_content_width {
+	width:13%!important;
+}
+.top_bar_content_padd_1 {
+	padding:0!important;
+}
+.img {
+    width: 82%;
+}
+.slide_menu {
+    width: 18%;
+}
+}
+
+@media (min-width: 1300px) {
+
+.img {
+    width: 84%;
+}
+.slide_menu {
+    width: 16%;
+}
+}
+
+
 @media (max-width: 1200px) {
 .main_section {
-width:93%!important;	
+width:94.7%!important;	
 }
+
+.side_bar {
+width:5.3%!important;		
+}
+.top_bar_content_padd {
+	padding-left:9px!important;
+}
+.Search{
+margin-left:16px;	
+}
+
+
 }
